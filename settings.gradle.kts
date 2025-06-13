@@ -10,4 +10,5 @@ plugins {
 }
 
 rootProject.name = "task3"
-include("app, core, service, gradle:custom-greeting-plugin")
+include("app", "core", "service")
+includeBuild("gradle/custom-greeting-plugin")

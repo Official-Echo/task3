@@ -1,3 +1,8 @@
+plugins {
+    `java-library`
+    id("com.example.greeting")
+}
+
 configure<com.example.gradle.GreetingExtension> {
-    message.set("Welcome")
+    getMessage().set("Welcome")
 }

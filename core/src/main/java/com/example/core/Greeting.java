@@ -1,4 +1,4 @@
-package main.java.com.example.core;
+package com.example.core;
 
 public class Greeting {
 	private final String message;

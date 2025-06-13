@@ -2,7 +2,7 @@ package com.example.app;
 
 import com.example.service.GreeterService;
 
-import main.java.com.example.core.Greeting;
+import com.example.core.Greeting;
 
 public class Main {
     public static void main(String[] args) {
